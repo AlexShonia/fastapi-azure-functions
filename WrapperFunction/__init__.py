@@ -5,7 +5,7 @@ app = fastapi.FastAPI()
 @app.get("/sample")
 async def index():
     return {
-        "info": "Try /hello/Alex for parameterized route.",
+        "info": "Try /hello/Alex for parameterized route (test edit).",
     }
 
 
